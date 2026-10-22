@@ -1,0 +1,2052 @@
+{
+ "schema_version": "1.0",
+ "grades": {
+  "clinical_supported": "Systematic review and/or EMA well-established use supports a specific indication (efficacy still often modest; product-specific).",
+  "clinical_mixed": "Clinical trials exist but a systematic review judged them inconsistent, low quality or insufficient.",
+  "traditional_only": "Accepted by EMA HMPC on the basis of long-standing (traditional) use only; efficacy not shown in adequate trials.",
+  "monograph_area_only": "EMA lists an adopted EU monograph in this therapeutic area, but the public page had no summary stating whether use is traditional or well-established; treat as at most traditional until the monograph PDF is read.",
+  "not_endorsed": "EMA HMPC issued a public statement instead of a monograph (no use endorsed).",
+  "no_known_benefit": "No EMA HMPC monograph and no Cochrane review located for this plant in our search; no evidence-based medicinal use known to this pack."
+ },
+ "general_safety": [
+  {
+   "id": "g-nhs-herbal",
+   "text": "Herbal medicines are not available on the NHS. NHS advises not taking herbal medicines if pregnant or breastfeeding, with kidney or liver problems, or with certain medicines (statins, antidepressants, metformin, ramipril, warfarin, combined pill), and to check with a pharmacist first.",
+   "sources": [
+    "nhs-herbal"
+   ]
+  },
+  {
+   "id": "g-thr",
+   "text": "In the UK a traditional herbal registration (THR) is granted only for minor conditions not needing medical supervision; NHS advises checking for the THR mark and an MHRA product code.",
+   "sources": [
+    "mhra-thr",
+    "nhs-herbal"
+   ]
+  },
+  {
+   "id": "g-yellowcard",
+   "text": "Suspected side effects of herbal medicines can be reported to the MHRA Yellow Card scheme.",
+   "sources": [
+    "mhra-yellowcard"
+   ]
+  },
+  {
+   "id": "g-poison",
+   "text": "For suspected plant poisoning, seek urgent medical help and take a sample of the plant (RHS); NHS poisoning guidance applies.",
+   "sources": [
+    "rhs-harmful",
+    "nhs-poisoning"
+   ]
+  }
+ ],
+ "plants": [
+  {
+   "id": "st-johns-wort",
+   "common_name": "St John's wort",
+   "botanical_name": "Hypericum perforatum",
+   "medicinal_uses": [
+    {
+     "use": "Major depression (licensed extracts studied in trials)",
+     "evidence_grade": "clinical_supported",
+     "basis": "Cochrane 2008: extracts tested were superior to placebo, similarly effective to standard antidepressants with fewer side effects; effect sizes varied by country of origin and study precision, complicating interpretation.",
+     "evidence_label": "evidence",
+     "sources": [
+      "cochrane-cd000448"
+     ]
+    },
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: skin disorders and minor wounds; mental stress and mood disorders; gastrointestinal disorders",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-hyperici-herba-0"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "Interacts with many medicines including anticonvulsants, anticoagulants, antidepressants and the contraceptive pill; not advised in pregnancy or breastfeeding.",
+     "sources": [
+      "nhs-depression"
+     ]
+    },
+    {
+     "text": "MHRA warns it reduces the effect of hormonal contraceptives, including implants.",
+     "sources": [
+      "mhra-sjw-contra"
+     ]
+    },
+    {
+     "text": "MHRA warns it may interact with antiepileptic medicines.",
+     "sources": [
+      "mhra-sjw-aed"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "valerian",
+   "common_name": "Valerian",
+   "botanical_name": "Valeriana officinalis",
+   "medicinal_uses": [
+    {
+     "use": "Mild nervous tension and sleep disorders (one specific preparation)",
+     "evidence_grade": "clinical_supported",
+     "basis": "EMA HMPC: efficacy of a specific preparation is based on 'well-established use'; other preparations (juice, water extracts, tinctures) traditional use only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-valerianae-radix"
+     ]
+    },
+    {
+     "use": "Anxiety disorders",
+     "evidence_grade": "clinical_mixed",
+     "basis": "Cochrane 2006: only one small study; insufficient evidence on efficacy or safety versus placebo or diazepam.",
+     "evidence_label": "evidence",
+     "sources": [
+      "cochrane-cd004515"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: not for children under 12, or in pregnancy or breastfeeding.",
+     "sources": [
+      "ema-valerianae-radix"
+     ]
+    },
+    {
+     "text": "NHS notes some over-the-counter sleep aids contain valerian or lavender.",
+     "sources": [
+      "nhs-insomnia"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "peppermint",
+   "common_name": "Peppermint",
+   "botanical_name": "Mentha × piperita",
+   "medicinal_uses": [
+    {
+     "use": "Minor abdominal spasms, flatulence and pain, especially in irritable bowel syndrome (oral oil)",
+     "evidence_grade": "clinical_supported",
+     "basis": "EMA HMPC: 'well-established use' for gut problems and headaches.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-menthae-piperitae-aetheroleum"
+     ]
+    },
+    {
+     "use": "Symptoms of coughs and colds, muscle pain, itching (oil)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use'.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-menthae-piperitae-aetheroleum"
+     ]
+    },
+    {
+     "use": "Indigestion and flatulence (leaf)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-menthae-piperitae-folium"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: oral oil for gut problems not for children under 8; oil preparations must not be used in children under 2; not in children who have had seizures for the cough/cold/muscle/itch uses.",
+     "sources": [
+      "ema-menthae-piperitae-aetheroleum"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "chamomile",
+   "common_name": "German chamomile (matricaria)",
+   "botanical_name": "Matricaria recutita",
+   "medicinal_uses": [
+    {
+     "use": "Minor gastrointestinal complaints such as bloating and minor spasms, and other minor conditions",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-matricariae-flos"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: only some preparations are recommended for children under 12.",
+     "sources": [
+      "ema-matricariae-flos"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "hawthorn",
+   "common_name": "Hawthorn",
+   "botanical_name": "Crataegus monogyna",
+   "medicinal_uses": [
+    {
+     "use": "Temporary heart complaints related to nervousness (e.g. palpitations) after a doctor has excluded serious conditions; mild mental stress; sleep",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-crataegi-folium-cum-flore"
+     ]
+    },
+    {
+     "use": "Adjunct treatment for chronic heart failure (extract, under medical care)",
+     "evidence_grade": "clinical_supported",
+     "basis": "Cochrane 2008: significant benefit in symptom control and physiological outcomes as an adjunct to conventional treatment.",
+     "evidence_label": "evidence",
+     "sources": [
+      "cochrane-cd005312"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "low",
+    "summary": "The haws (berries) can cause mild stomach upset when eaten raw.",
+    "sources": [
+     "wt-hawthorn"
+    ]
+   },
+   "cautions": [
+    {
+     "text": "Heart conditions need medical management; the clinical evidence concerns standardised extracts used alongside prescribed treatment, not self-treatment.",
+     "sources": [
+      "cochrane-cd005312"
+     ],
+     "evidence_label": "inference"
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "ivy",
+   "common_name": "Common ivy",
+   "botanical_name": "Hedera helix",
+   "medicinal_uses": [
+    {
+     "use": "Expectorant for productive (chesty) cough",
+     "evidence_grade": "clinical_supported",
+     "basis": "EMA HMPC: 'well-established use'; trials in children with acute bronchitis found it comparable to acetylcysteine.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-hederae-helicis-folium"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "RHS category C: harmful if eaten; skin irritant/allergen.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Poison ivy (Toxicodendron radicans), a North American plant",
+     "risk": "skin irritation",
+     "distinguishing_features": "Not closely related to common ivy; Woodland Trust notes it is poisonous and causes skin irritation.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-ivy"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: must not be given to children under 2 (risk of worsening respiratory symptoms).",
+     "sources": [
+      "ema-hederae-helicis-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "lavender",
+   "common_name": "Lavender",
+   "botanical_name": "Lavandula angustifolia",
+   "medicinal_uses": [
+    {
+     "use": "Mild symptoms of mental stress and exhaustion; to aid sleep (oil)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-lavandulae-aetheroleum"
+     ]
+    },
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: sleep disorders and temporary insomnia; mental stress and mood disorders (flower)",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-lavandulae-flos"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: lavender oil medicines only for adults and children over 12.",
+     "sources": [
+      "ema-lavandulae-aetheroleum"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "white-willow",
+   "common_name": "White willow (willow bark)",
+   "botanical_name": "Salix alba and other Salix spp.",
+   "medicinal_uses": [
+    {
+     "use": "Short-term treatment of lower back pain (dry extract)",
+     "evidence_grade": "clinical_supported",
+     "basis": "EMA HMPC: 'well-established use'. Cochrane 2014 on herbal medicines for low back pain found S. alba seemed to reduce pain more than placebo but evidence was of moderate quality at best.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-salicis-cortex",
+      "cochrane-cd004504"
+     ]
+    },
+    {
+     "use": "Minor joint pain, fever with common cold, headache",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-salicis-cortex"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: must not be taken by children, adolescents, or women in the third trimester of pregnancy.",
+     "sources": [
+      "ema-salicis-cortex"
+     ]
+    }
+   ],
+   "traditional_notes": [
+    {
+     "text": "Woodland Trust: a source of natural remedies for centuries; used to stop bleeding, clean wounds and treat aches and pains.",
+     "sources": [
+      "wt-white-willow"
+     ],
+     "evidence_label": "evidence"
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "nettle",
+   "common_name": "Common nettle",
+   "botanical_name": "Urtica dioica",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: urinary tract and genital disorders (leaf)",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-urticae-folium"
+     ]
+    },
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: urinary tract and genital disorders (root)",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-urticae-radix"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "low",
+    "summary": "RHS: skin irritant.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "elder",
+   "common_name": "Elder",
+   "botanical_name": "Sambucus nigra",
+   "medicinal_uses": [
+    {
+     "use": "Early symptoms of the common cold (flower)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-sambuci-flos"
+     ]
+    },
+    {
+     "use": "Elderberry (fruit) for any indication",
+     "evidence_grade": "not_endorsed",
+     "basis": "EMA HMPC did not adopt a monograph; it issued a public statement.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-sambuci-fructus"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "Flowers and cooked berries are edible, but uncooked berries and other parts of Sambucus plants are poisonous.",
+    "sources": [
+     "wt-elder"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "yarrow",
+   "common_name": "Yarrow",
+   "botanical_name": "Achillea millefolium",
+   "medicinal_uses": [
+    {
+     "use": "Temporary loss of appetite; mild digestive problems including bloating and flatulence; superficial wounds; menstrual spasm",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-millefolii-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "thyme",
+   "common_name": "Thyme",
+   "botanical_name": "Thymus vulgaris",
+   "medicinal_uses": [
+    {
+     "use": "Productive (chesty) cough associated with colds",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-thymi-herba"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: most preparations only for over-12s; a few from age 4.",
+     "sources": [
+      "ema-thymi-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "sage",
+   "common_name": "Sage",
+   "botanical_name": "Salvia officinalis",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: mouth and throat disorders; skin disorders and minor wounds; gastrointestinal disorders",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-salviae-officinalis-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "comfrey",
+   "common_name": "Common comfrey",
+   "botanical_name": "Symphytum officinale",
+   "medicinal_uses": [
+    {
+     "use": "Symptoms of minor sprains and bruises (root preparations, applied to skin per EMA scope)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-symphyti-radix"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "RHS category C: harmful if eaten repeatedly.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Foxglove (Digitalis purpurea)",
+     "risk": "severe: foxglove is toxic if eaten (RHS category B)",
+     "distinguishing_features": "Woodland Trust: comfrey could be mistaken for foxglove when not in flower, as the leaves are similar.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-foxglove",
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "horse-chestnut",
+   "common_name": "Horse chestnut",
+   "botanical_name": "Aesculus hippocastanum",
+   "medicinal_uses": [
+    {
+     "use": "Chronic venous insufficiency (seed extract, by mouth)",
+     "evidence_grade": "clinical_supported",
+     "basis": "EMA HMPC: 'well-established use'. Cochrane 2012: efficacious and safe short-term treatment, with caveats; larger definitive RCTs needed.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-hippocastani-semen",
+      "cochrane-cd003230"
+     ]
+    },
+    {
+     "use": "Heavy legs from minor venous circulation problems; signs of bruises",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-hippocastani-semen"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "RHS category C: harmful if eaten. Woodland Trust: conkers are mildly poisonous if consumed in excessive quantities.",
+    "sources": [
+     "rhs-harmful",
+     "wt-horse-chestnut"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "ginkgo",
+   "common_name": "Ginkgo (garden tree)",
+   "botanical_name": "Ginkgo biloba",
+   "medicinal_uses": [
+    {
+     "use": "Age-related cognitive impairment / mild dementia (dry extract)",
+     "evidence_grade": "clinical_mixed",
+     "basis": "EMA HMPC accepts 'well-established use' for a dry extract, but Cochrane 2009 found evidence of predictable, clinically significant benefit inconsistent and unreliable. Sources disagree; shown as mixed.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-ginkgo-folium",
+      "cochrane-cd003120"
+     ]
+    },
+    {
+     "use": "Heaviness in legs and cold hands/feet from minor circulation problems (powdered leaf)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-ginkgo-folium"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "RHS: seeds harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "milk-thistle",
+   "common_name": "Milk thistle",
+   "botanical_name": "Silybum marianum",
+   "medicinal_uses": [
+    {
+     "use": "Digestive disorders, fullness, indigestion; to support liver function after a doctor has excluded serious conditions",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-silybi-mariani-fructus"
+     ]
+    },
+    {
+     "use": "Alcoholic and/or hepatitis B or C liver disease",
+     "evidence_grade": "clinical_mixed",
+     "basis": "Cochrane 2007: results question the beneficial effects; lack of high-quality evidence.",
+     "evidence_label": "evidence",
+     "sources": [
+      "cochrane-cd003620"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "rosemary",
+   "common_name": "Rosemary",
+   "botanical_name": "Salvia rosmarinus",
+   "medicinal_uses": [
+    {
+     "use": "Dyspepsia and mild gut spasms; minor muscle and joint pain; minor peripheral circulation problems",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-rosmarini-folium"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "low",
+    "summary": "RHS: skin allergen.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "cautions": [
+    {
+     "text": "EMA: not for under-12s or in pregnancy/breastfeeding.",
+     "sources": [
+      "ema-rosmarini-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "lemon-balm",
+   "common_name": "Lemon balm",
+   "botanical_name": "Melissa officinalis",
+   "medicinal_uses": [
+    {
+     "use": "Mild symptoms of stress; to aid sleep; mild digestive disorders",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-melissae-folium"
+     ]
+    }
+   ],
+   "cautions": [
+    {
+     "text": "EMA: adults and children over 12 only.",
+     "sources": [
+      "ema-melissae-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "calendula",
+   "common_name": "Pot marigold",
+   "botanical_name": "Calendula officinalis",
+   "medicinal_uses": [
+    {
+     "use": "Minor skin inflammation (e.g. sunburn); aid to healing minor wounds; mouth/throat inflammation",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-calendulae-flos"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "hop",
+   "common_name": "Hop",
+   "botanical_name": "Humulus lupulus",
+   "medicinal_uses": [
+    {
+     "use": "Mild symptoms of mental stress; to aid sleep",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-lupuli-flos"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "low",
+    "summary": "RHS: skin irritant/allergen.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "flax",
+   "common_name": "Flax / linseed",
+   "botanical_name": "Linum usitatissimum",
+   "medicinal_uses": [
+    {
+     "use": "Habitual constipation / softening stool",
+     "evidence_grade": "clinical_supported",
+     "basis": "EMA HMPC: 'well-established use'.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-lini-semen"
+     ]
+    },
+    {
+     "use": "Mild gastrointestinal discomfort",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-lini-semen"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "echinacea",
+   "common_name": "Purple coneflower (garden)",
+   "botanical_name": "Echinacea purpurea",
+   "medicinal_uses": [
+    {
+     "use": "Short-term prevention and treatment of common cold",
+     "evidence_grade": "clinical_mixed",
+     "basis": "EMA HMPC accepts 'well-established use', but Cochrane 2014 found no shown benefit for treating colds; prophylaxis trials show positive but non-significant trends of questionable clinical relevance. Sources disagree; shown as mixed.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-echinaceae-purpureae-herba",
+      "cochrane-cd000530"
+     ]
+    },
+    {
+     "use": "Small superficial wounds (applied to skin)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-echinaceae-purpureae-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "garlic",
+   "common_name": "Garlic",
+   "botanical_name": "Allium sativum",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: cough and cold; circulatory disorders",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-allii-sativi-bulbus"
+     ]
+    },
+    {
+     "use": "Preventing or treating the common cold",
+     "evidence_grade": "clinical_mixed",
+     "basis": "Cochrane 2014: insufficient trial evidence; a single trial suggested prevention; claims rely largely on poor-quality evidence.",
+     "evidence_label": "evidence",
+     "sources": [
+      "cochrane-cd006206"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "low",
+    "summary": "RHS: skin irritant/allergen.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "feverfew",
+   "common_name": "Feverfew",
+   "botanical_name": "Tanacetum parthenium",
+   "medicinal_uses": [
+    {
+     "use": "Prevention of migraine",
+     "evidence_grade": "clinical_mixed",
+     "basis": "EMA HMPC: 'traditional use'. Cochrane 2015: one larger rigorous study found 0.6 fewer attacks per month than placebo, but overall low-quality evidence; no major safety concerns identified.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-tanaceti-parthenii-herba",
+      "cochrane-cd002286"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "ribwort-plantain",
+   "common_name": "Ribwort plantain",
+   "botanical_name": "Plantago lanceolata",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: cough and cold",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-plantaginis-lanceolatae-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "meadowsweet",
+   "common_name": "Meadowsweet",
+   "botanical_name": "Filipendula ulmaria",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: pain and inflammation; cough and cold",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-filipendulae-ulmariae-herba"
+     ]
+    }
+   ],
+   "traditional_notes": [
+    {
+     "text": "Woodland Trust: contains compounds similar to aspirin and was steeped as a pain-relieving tea before modern painkillers.",
+     "sources": [
+      "wt-meadowsweet"
+     ],
+     "evidence_label": "evidence"
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "birch",
+   "common_name": "Silver birch / downy birch",
+   "botanical_name": "Betula pendula, B. pubescens",
+   "medicinal_uses": [
+    {
+     "use": "Increasing urine flow to flush the urinary tract in minor urinary problems",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-betulae-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "dandelion",
+   "common_name": "Dandelion",
+   "botanical_name": "Taraxacum officinale",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: urinary tract and genital disorders (leaf)",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-taraxaci-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "raspberry",
+   "common_name": "Raspberry",
+   "botanical_name": "Rubus idaeus",
+   "medicinal_uses": [
+    {
+     "use": "Minor menstrual spasms; mild mouth or throat inflammation; mild diarrhoea (leaf)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-rubi-idaei-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "oak",
+   "common_name": "Pedunculate / sessile oak",
+   "botanical_name": "Quercus robur, Q. petraea",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: skin disorders and minor wounds; circulatory disorders; gastrointestinal disorders (bark)",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-quercus-cortex"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "agrimony",
+   "common_name": "Agrimony",
+   "botanical_name": "Agrimonia eupatoria",
+   "medicinal_uses": [
+    {
+     "use": "Mild diarrhoea; gargle for mild mouth/throat inflammation; skin inflammation and wounds",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-agrimoniae-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "horsetail",
+   "common_name": "Field horsetail",
+   "botanical_name": "Equisetum arvense",
+   "medicinal_uses": [
+    {
+     "use": "Increasing urine flow to flush the urinary tract in minor urinary problems",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-equiseti-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "knotgrass",
+   "common_name": "Knotgrass",
+   "botanical_name": "Polygonum aviculare",
+   "medicinal_uses": [
+    {
+     "use": "Symptoms of common cold; minor mouth/throat inflammation; minor urinary problems",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-polygoni-avicularis-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "cowslip",
+   "common_name": "Cowslip / oxlip",
+   "botanical_name": "Primula veris, P. elatior",
+   "medicinal_uses": [
+    {
+     "use": "Expectorant for coughs associated with colds (root)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-primulae-radix"
+     ]
+    }
+   ],
+   "lookalikes": [
+    {
+     "lookalike": "Primrose (Primula vulgaris) and each other",
+     "risk": "low (identification only)",
+     "distinguishing_features": "Woodland Trust: primrose can be confused with oxlip and cowslip, which are similar species.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-primrose"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "marshmallow",
+   "common_name": "Marsh-mallow",
+   "botanical_name": "Althaea officinalis",
+   "medicinal_uses": [
+    {
+     "use": "Irritation of mouth or throat and associated dry cough",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-althaeae-radix"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "great-mullein",
+   "common_name": "Great mullein",
+   "botanical_name": "Verbascum thapsus",
+   "medicinal_uses": [
+    {
+     "use": "Sore throat associated with dry cough and cold",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-verbasci-flos"
+     ]
+    }
+   ],
+   "lookalikes": [
+    {
+     "lookalike": "Foxglove (Digitalis purpurea)",
+     "risk": "severe: foxglove is toxic if eaten",
+     "distinguishing_features": "Woodland Trust: foxglove might be confused with great mullein when no flowers are present.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-foxglove",
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "arnica",
+   "common_name": "Arnica (garden)",
+   "botanical_name": "Arnica montana",
+   "medicinal_uses": [
+    {
+     "use": "Bruises, sprains and localised muscle pain (liquid extract preparations)",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-arnicae-flos"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "lime-tree",
+   "common_name": "Small-leaved / large-leaved lime",
+   "botanical_name": "Tilia cordata, T. platyphyllos",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: cough and cold; mental stress and mood disorders (flower)",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-tiliae-flos"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "centaury",
+   "common_name": "Common centaury",
+   "botanical_name": "Centaurium erythraea",
+   "medicinal_uses": [
+    {
+     "use": "Mild indigestion and gut disorders; temporary loss of appetite",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-centaurii-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "shepherds-purse",
+   "common_name": "Shepherd's purse",
+   "botanical_name": "Capsella bursa-pastoris",
+   "medicinal_uses": [
+    {
+     "use": "Reducing heavy menstrual bleeding in women with regular cycles, after a doctor has excluded serious conditions",
+     "evidence_grade": "traditional_only",
+     "basis": "EMA HMPC: 'traditional use' (long-standing use) only.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-bursae-pastoris-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "goldenrod",
+   "common_name": "Goldenrod",
+   "botanical_name": "Solidago virgaurea",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: urinary tract and genital disorders",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-solidaginis-virgaureae-herba"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "bogbean",
+   "common_name": "Bogbean",
+   "botanical_name": "Menyanthes trifoliata",
+   "medicinal_uses": [
+    {
+     "use": "EU herbal monograph adopted; therapeutic area: loss of appetite; pain and inflammation; gastrointestinal disorders",
+     "evidence_grade": "monograph_area_only",
+     "basis": "EMA page lists an adopted EU herbal monograph; no public summary text found.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-menyanthidis-trifoliatae-folium"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "greater-celandine",
+   "common_name": "Greater celandine",
+   "botanical_name": "Chelidonium majus",
+   "medicinal_uses": [
+    {
+     "use": "Any indication",
+     "evidence_grade": "not_endorsed",
+     "basis": "EMA HMPC issued a public statement instead of a monograph.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-chelidonii-herba"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "RHS category C: harmful if eaten; skin/eye irritant.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "mistletoe",
+   "common_name": "Mistletoe",
+   "botanical_name": "Viscum album",
+   "medicinal_uses": [
+    {
+     "use": "Any indication",
+     "evidence_grade": "not_endorsed",
+     "basis": "EMA HMPC issued a public statement instead of a monograph.",
+     "evidence_label": "evidence",
+     "sources": [
+      "ema-visci-albi-herba"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "RHS category C: harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "foxglove",
+   "common_name": "Foxglove",
+   "botanical_name": "Digitalis purpurea",
+   "medicinal_uses": [
+    {
+     "use": "None for the plant. Heart medicine digoxin is derived from foxgloves; the plant itself is poisonous.",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust: contains digitalis compounds used to treat heart conditions, but the plant is poisonous if consumed. Digoxin is a prescription-only medicine (NHS).",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-foxglove",
+      "nhs-digoxin"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Common comfrey (Symphytum officinale)",
+     "risk": "severe if foxglove is eaten by mistake",
+     "distinguishing_features": "Leaves are similar when not in flower.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-foxglove"
+     ]
+    },
+    {
+     "lookalike": "Great mullein (Verbascum thapsus)",
+     "risk": "severe if foxglove is eaten by mistake",
+     "distinguishing_features": "Can be confused when no flowers are present.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-foxglove"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "deadly-nightshade",
+   "common_name": "Deadly nightshade",
+   "botanical_name": "Atropa belladonna",
+   "medicinal_uses": [
+    {
+     "use": "None for the plant; medicines have been made from it under pharmaceutical control.",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust: highly poisonous; medicines have been made from it.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-deadly-nightshade"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten; skin irritant. Berries highly poisonous.",
+    "sources": [
+     "rhs-harmful",
+     "wt-deadly-nightshade"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Woody nightshade / bittersweet (Solanum dulcamara)",
+     "risk": "both harmful",
+     "distinguishing_features": "Same flower colour as deadly nightshade (Woodland Trust); woody nightshade is itself harmful if eaten (RHS).",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-deadly-nightshade",
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "yew",
+   "common_name": "Yew",
+   "botanical_name": "Taxus baccata",
+   "medicinal_uses": [
+    {
+     "use": "None for the plant. Anti-cancer taxane drugs are developed from yew compounds.",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust: taxane alkaloids developed as anti-cancer drugs; eating just a few leaves can make a small child severely ill and deaths have been linked to yew poisoning.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-yew"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten.",
+    "sources": [
+     "rhs-harmful",
+     "wt-yew"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "hemlock",
+   "common_name": "Hemlock",
+   "botanical_name": "Conium maculatum",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph or Cochrane review; all parts poisonous.",
+     "evidence_label": "inference",
+     "sources": [
+      "plantlife-hemlock"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "Plantlife: all parts are poisonous.",
+    "sources": [
+     "plantlife-hemlock"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Cow parsley (Anthriscus sylvestris)",
+     "risk": "fatal-risk confusion",
+     "distinguishing_features": "Hemlock has mostly hairless stems with purple spots or blotches, grows up to 2 m, smells unpleasant, and flowers after cow parsley (June-July). Plantlife says it is easily mistaken for cow parsley.",
+     "evidence_label": "evidence",
+     "sources": [
+      "plantlife-hemlock"
+     ]
+    },
+    {
+     "lookalike": "Hogweed, upright hedge-parsley, hemlock water-dropwort",
+     "risk": "confusion within the carrot family; hemlock water-dropwort is also poisonous",
+     "distinguishing_features": "Plantlife lists these as similar species; treat all umbellifers with caution.",
+     "evidence_label": "evidence",
+     "sources": [
+      "plantlife-hemlock",
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "cow-parsley",
+   "common_name": "Cow parsley",
+   "botanical_name": "Anthriscus sylvestris",
+   "medicinal_uses": [
+    {
+     "use": "Traditional folk use (stomach, kidney, breathing problems, colds) reported only",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust reports traditional use; no EMA monograph or Cochrane review located.",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-cow-parsley"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "low",
+    "summary": "RHS category C: harmful to skin with sunlight. Young leaves are edible but it has many poisonous relatives so is best left uneaten (Woodland Trust).",
+    "sources": [
+     "rhs-harmful",
+     "wt-cow-parsley"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Hemlock (Conium maculatum)",
+     "risk": "fatal-risk confusion",
+     "distinguishing_features": "See hemlock: purple-blotched hairless stems, unpleasant smell, later flowering.",
+     "evidence_label": "evidence",
+     "sources": [
+      "plantlife-hemlock"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "wild-garlic",
+   "common_name": "Wild garlic (ramsons)",
+   "botanical_name": "Allium ursinum",
+   "medicinal_uses": [
+    {
+     "use": "Traditional tonic use for rheumatic problems and high cholesterol reported only",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust reports traditional use; no EMA monograph or Cochrane review located.",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-wild-garlic"
+     ]
+    }
+   ],
+   "lookalikes": [
+    {
+     "lookalike": "Lily-of-the-valley (Convallaria majalis)",
+     "risk": "severe: lily-of-the-valley is toxic if eaten (RHS category B)",
+     "distinguishing_features": "Wild garlic leaves grow from the plant base; lily-of-the-valley has two or three leaves on its stem; wild garlic smells unmistakably garlicky.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-wild-garlic",
+      "wt-lily-of-the-valley",
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "lily-of-the-valley",
+   "common_name": "Lily-of-the-valley",
+   "botanical_name": "Convallaria majalis",
+   "medicinal_uses": [
+    {
+     "use": "None; historic heart tonic use only",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust: a tonic was used in traditional medicine for heart problems; berries are poisonous.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-lily-of-the-valley"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Wild garlic",
+     "risk": "see wild garlic",
+     "distinguishing_features": "Leaves similar when not in flower.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-lily-of-the-valley"
+     ]
+    },
+    {
+     "lookalike": "Solomon's-seal, May lily",
+     "risk": "harmful",
+     "distinguishing_features": "Woodland Trust lists both as possible confusions; Solomon's seal is harmful if eaten (RHS).",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-lily-of-the-valley",
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "lords-and-ladies",
+   "common_name": "Lords-and-ladies (cuckoo-pint)",
+   "botanical_name": "Arum maculatum",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph or Cochrane review located.",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten; skin and eye irritant.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "hemlock-water-dropwort",
+   "common_name": "Hemlock water-dropwort",
+   "botanical_name": "Oenanthe crocata",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph or Cochrane review located.",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Hemlock and other umbellifers",
+     "risk": "severe",
+     "distinguishing_features": "Plantlife lists it among hemlock's similar species.",
+     "evidence_label": "evidence",
+     "sources": [
+      "plantlife-hemlock"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "giant-hogweed",
+   "common_name": "Giant hogweed",
+   "botanical_name": "Heracleum mantegazzianum",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph or Cochrane review located.",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe (skin)",
+    "summary": "RHS: toxic to skin with sunlight (common hogweed and other Heracleum too).",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "monkshood",
+   "common_name": "Monkshood",
+   "botanical_name": "Aconitum napellus",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph or Cochrane review located.",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten; avoid skin contact.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "autumn-crocus",
+   "common_name": "Autumn crocus",
+   "botanical_name": "Colchicum autumnale",
+   "medicinal_uses": [
+    {
+     "use": "None for the plant",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph located.",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "henbane",
+   "common_name": "Henbane",
+   "botanical_name": "Hyoscyamus niger",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph located.",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "severe",
+    "summary": "RHS category B: toxic if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "laburnum",
+   "common_name": "Laburnum",
+   "botanical_name": "Laburnum anagyroides",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph located.",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "RHS category C: harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "dogs-mercury",
+   "common_name": "Dog's mercury",
+   "botanical_name": "Mercurialis perennis",
+   "medicinal_uses": [
+    {
+     "use": "None",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA monograph located.",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-dogs-mercury"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "moderate",
+    "summary": "Woodland Trust: all parts are poisonous.",
+    "sources": [
+     "wt-dogs-mercury"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Good-King-Henry (Chenopodium bonus-henricus)",
+     "risk": "moderate",
+     "distinguishing_features": "Woodland Trust: unrelated but similar.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-dogs-mercury"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "bluebell",
+   "common_name": "Bluebell",
+   "botanical_name": "Hyacinthoides non-scripta",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-bluebell"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: harmful if eaten. Woodland Trust: due to toxicity, little use in modern medicine.",
+    "sources": [
+     "rhs-harmful",
+     "wt-bluebell"
+    ]
+   },
+   "lookalikes": [
+    {
+     "lookalike": "Spanish bluebell (Hyacinthoides hispanica)",
+     "risk": "low (conservation, not safety)",
+     "distinguishing_features": "Very similar in appearance; may out-compete and hybridise with native bluebell.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-bluebell"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "holly",
+   "common_name": "Holly",
+   "botanical_name": "Ilex aquifolium",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-holly"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "wood-anemone",
+   "common_name": "Wood anemone",
+   "botanical_name": "Anemone nemorosa",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-wood-anemone"
+     ]
+    }
+   ],
+   "lookalikes": [
+    {
+     "lookalike": "Wood sorrel (Oxalis acetosella)",
+     "risk": "low",
+     "distinguishing_features": "Wood sorrel has pink veins in white petals and rounded heart-shaped leaves; wood anemone leaves are deeply lobed.",
+     "evidence_label": "evidence",
+     "sources": [
+      "wt-wood-anemone"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "red-campion",
+   "common_name": "Red campion",
+   "botanical_name": "Silene dioica",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust reports traditional use of seeds for snakebites. No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-red-campion"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "herb-robert",
+   "common_name": "Herb-Robert",
+   "botanical_name": "Geranium robertianum",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "Woodland Trust reports traditional use as an antiseptic, for nosebleeds and stomach upset. No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "wt-herb-robert"
+     ]
+    }
+   ],
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "daffodil",
+   "common_name": "Daffodil",
+   "botanical_name": "Narcissus spp.",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: harmful if eaten; skin irritant.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "buttercup",
+   "common_name": "Buttercups",
+   "botanical_name": "Ranunculus spp.",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: harmful if eaten; skin irritant.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "cherry-laurel",
+   "common_name": "Cherry laurel",
+   "botanical_name": "Prunus laurocerasus",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: varieties bearing ornamental fruit harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "privet",
+   "common_name": "Privet",
+   "botanical_name": "Ligustrum spp.",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "rhododendron",
+   "common_name": "Rhododendron / azalea",
+   "botanical_name": "Rhododendron spp.",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "snowberry",
+   "common_name": "Snowberry",
+   "botanical_name": "Symphoricarpos spp.",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "leyland-cypress",
+   "common_name": "Leyland cypress",
+   "botanical_name": "× Cuprocyparis leylandii",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: skin allergen.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "tulip",
+   "common_name": "Tulip",
+   "botanical_name": "Tulipa spp.",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: harmful if eaten; skin allergen.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "lupin",
+   "common_name": "Lupin (garden)",
+   "botanical_name": "Lupinus spp.",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS: harmful if eaten.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  },
+  {
+   "id": "spindle",
+   "common_name": "Spindle",
+   "botanical_name": "Euonymus europaeus",
+   "medicinal_uses": [
+    {
+     "use": "No known evidence-based medicinal use",
+     "evidence_grade": "no_known_benefit",
+     "basis": "No EMA HMPC monograph or Cochrane review was located for this plant (search of EMA herbal list and Cochrane, Oct 2026).",
+     "evidence_label": "inference",
+     "sources": [
+      "rhs-harmful"
+     ]
+    }
+   ],
+   "toxicity": {
+    "level": "see summary",
+    "summary": "RHS category C: somewhat poisonous.",
+    "sources": [
+     "rhs-harmful"
+    ]
+   },
+   "safety_banner": "Information only. Not medical advice. No dosing or preparation guidance is given. Speak to a pharmacist or doctor before using any herbal product, especially if pregnant, breastfeeding, a child, or taking other medicines."
+  }
+ ],
+ "counts": {
+  "plants": 75,
+  "uses": 90,
+  "by_grade": {
+   "clinical_supported": 8,
+   "monograph_area_only": 13,
+   "clinical_mixed": 6,
+   "traditional_only": 30,
+   "not_endorsed": 3,
+   "no_known_benefit": 30
+  },
+  "with_lookalikes": 14,
+  "with_toxicity": 37
+ }
+}
