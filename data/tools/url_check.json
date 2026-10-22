@@ -1,0 +1,389 @@
+{
+ "checked_at": "2026-10-22T23:07+10:00",
+ "results": [
+  {
+   "id": "ema-hyperici-herba-0",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-valerianae-radix",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-menthae-piperitae-aetheroleum",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-menthae-piperitae-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-matricariae-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-crataegi-folium-cum-flore",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-hederae-helicis-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-lavandulae-aetheroleum",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-lavandulae-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-salicis-cortex",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-urticae-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-urticae-radix",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-sambuci-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-sambuci-fructus",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-millefolii-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-thymi-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-salviae-officinalis-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-symphyti-radix",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-hippocastani-semen",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-ginkgo-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-silybi-mariani-fructus",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-rosmarini-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-melissae-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-calendulae-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-lupuli-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-lini-semen",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-echinaceae-purpureae-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-allii-sativi-bulbus",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-tanaceti-parthenii-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-plantaginis-lanceolatae-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-filipendulae-ulmariae-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-betulae-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-taraxaci-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-rubi-idaei-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-quercus-cortex",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-agrimoniae-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-equiseti-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-polygoni-avicularis-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-primulae-radix",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-althaeae-radix",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-verbasci-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-arnicae-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-chelidonii-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-tiliae-flos",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-centaurii-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-visci-albi-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-bursae-pastoris-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-solidaginis-virgaureae-herba",
+   "url_status": "200"
+  },
+  {
+   "id": "ema-menyanthidis-trifoliatae-folium",
+   "url_status": "200"
+  },
+  {
+   "id": "cochrane-cd000448",
+   "url_status": "403",
+   "crossref_status": "200",
+   "crossref_title": "St John's wort for major depression",
+   "crossref_year": 2008
+  },
+  {
+   "id": "cochrane-cd000530",
+   "url_status": "302",
+   "crossref_status": "200",
+   "crossref_title": "Echinacea for preventing and treating the common cold",
+   "crossref_year": 2014
+  },
+  {
+   "id": "cochrane-cd006206",
+   "url_status": "302",
+   "crossref_status": "200",
+   "crossref_title": "Garlic for the common cold",
+   "crossref_year": 2014
+  },
+  {
+   "id": "cochrane-cd002286",
+   "url_status": "302",
+   "crossref_status": "200",
+   "crossref_title": "Feverfew for preventing migraine",
+   "crossref_year": 2015
+  },
+  {
+   "id": "cochrane-cd005312",
+   "url_status": "302",
+   "crossref_status": "429"
+  },
+  {
+   "id": "cochrane-cd003120",
+   "url_status": "302",
+   "crossref_status": "200",
+   "crossref_title": "Ginkgo biloba for cognitive impairment and dementia",
+   "crossref_year": 2009
+  },
+  {
+   "id": "cochrane-cd003620",
+   "url_status": "302",
+   "crossref_status": "200",
+   "crossref_title": "Milk thistle for alcoholic and/or hepatitis B or C virus liver diseases",
+   "crossref_year": 2007
+  },
+  {
+   "id": "cochrane-cd004515",
+   "url_status": "403",
+   "crossref_status": "200",
+   "crossref_title": "Valerian for anxiety disorders",
+   "crossref_year": 2006
+  },
+  {
+   "id": "cochrane-cd003230",
+   "url_status": "302",
+   "crossref_status": "200",
+   "crossref_title": "Horse chestnut seed extract for chronic venous insufficiency",
+   "crossref_year": 2012
+  },
+  {
+   "id": "cochrane-cd004504",
+   "url_status": "302",
+   "crossref_status": "200",
+   "crossref_title": "Herbal medicine for low-back pain",
+   "crossref_year": 2014
+  },
+  {
+   "id": "wt-cow-parsley",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-foxglove",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-wild-garlic",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-lily-of-the-valley",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-deadly-nightshade",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-bluebell",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-meadowsweet",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-ivy",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-herb-robert",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-wood-anemone",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-dogs-mercury",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-red-campion",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-primrose",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-yew",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-elder",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-hawthorn",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-holly",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-horse-chestnut",
+   "url_status": "200"
+  },
+  {
+   "id": "wt-white-willow",
+   "url_status": "200"
+  },
+  {
+   "id": "rhs-harmful",
+   "url_status": "200"
+  },
+  {
+   "id": "plantlife-hemlock",
+   "url_status": "200"
+  },
+  {
+   "id": "nhs-herbal",
+   "url_status": "200"
+  },
+  {
+   "id": "nhs-depression",
+   "url_status": "200"
+  },
+  {
+   "id": "nhs-insomnia",
+   "url_status": "200"
+  },
+  {
+   "id": "nhs-digoxin",
+   "url_status": "200"
+  },
+  {
+   "id": "nhs-poisoning",
+   "url_status": "200"
+  },
+  {
+   "id": "mhra-sjw-contra",
+   "url_status": "200"
+  },
+  {
+   "id": "mhra-sjw-aed",
+   "url_status": "200"
+  },
+  {
+   "id": "mhra-thr",
+   "url_status": "200"
+  },
+  {
+   "id": "mhra-yellowcard",
+   "url_status": "200"
+  }
+ ]
+}

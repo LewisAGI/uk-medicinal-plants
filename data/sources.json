@@ -1,0 +1,656 @@
+[
+ {
+  "id": "ema-hyperici-herba-0",
+  "title": "EMA HMPC herbal medicine page: St John's wort (hyperici-herba-0)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/hyperici-herba-0",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-valerianae-radix",
+  "title": "EMA HMPC herbal medicine page: Valerian root (valerianae-radix)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/valerianae-radix",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-menthae-piperitae-aetheroleum",
+  "title": "EMA HMPC herbal medicine page: Peppermint oil (menthae-piperitae-aetheroleum)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-aetheroleum",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-menthae-piperitae-folium",
+  "title": "EMA HMPC herbal medicine page: Peppermint leaf (menthae-piperitae-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-matricariae-flos",
+  "title": "EMA HMPC herbal medicine page: Matricaria (chamomile) flower (matricariae-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/matricariae-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-crataegi-folium-cum-flore",
+  "title": "EMA HMPC herbal medicine page: Hawthorn leaf and flower (crataegi-folium-cum-flore)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/crataegi-folium-cum-flore",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-hederae-helicis-folium",
+  "title": "EMA HMPC herbal medicine page: Ivy leaf (hederae-helicis-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/hederae-helicis-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-lavandulae-aetheroleum",
+  "title": "EMA HMPC herbal medicine page: Lavender oil (lavandulae-aetheroleum)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/lavandulae-aetheroleum",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-lavandulae-flos",
+  "title": "EMA HMPC herbal medicine page: Lavender flower (lavandulae-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/lavandulae-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-salicis-cortex",
+  "title": "EMA HMPC herbal medicine page: Willow bark (salicis-cortex)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-urticae-folium",
+  "title": "EMA HMPC herbal medicine page: Nettle leaf (urticae-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/urticae-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-urticae-radix",
+  "title": "EMA HMPC herbal medicine page: Nettle root (urticae-radix)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/urticae-radix",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-sambuci-flos",
+  "title": "EMA HMPC herbal medicine page: Elder flower (sambuci-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/sambuci-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-sambuci-fructus",
+  "title": "EMA HMPC herbal medicine page: Elderberry (sambuci-fructus)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/sambuci-fructus",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-millefolii-herba",
+  "title": "EMA HMPC herbal medicine page: Yarrow (millefolii-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/millefolii-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-thymi-herba",
+  "title": "EMA HMPC herbal medicine page: Thyme (thymi-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/thymi-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-salviae-officinalis-folium",
+  "title": "EMA HMPC herbal medicine page: Sage leaf (salviae-officinalis-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/salviae-officinalis-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-symphyti-radix",
+  "title": "EMA HMPC herbal medicine page: Comfrey root (symphyti-radix)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/symphyti-radix",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-hippocastani-semen",
+  "title": "EMA HMPC herbal medicine page: Horse-chestnut seed (hippocastani-semen)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/hippocastani-semen",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-ginkgo-folium",
+  "title": "EMA HMPC herbal medicine page: Ginkgo leaf (ginkgo-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/ginkgo-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-silybi-mariani-fructus",
+  "title": "EMA HMPC herbal medicine page: Milk thistle fruit (silybi-mariani-fructus)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/silybi-mariani-fructus",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-rosmarini-folium",
+  "title": "EMA HMPC herbal medicine page: Rosemary leaf (rosmarini-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/rosmarini-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-melissae-folium",
+  "title": "EMA HMPC herbal medicine page: Melissa (lemon balm) leaf (melissae-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/melissae-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-calendulae-flos",
+  "title": "EMA HMPC herbal medicine page: Calendula flower (calendulae-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/calendulae-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-lupuli-flos",
+  "title": "EMA HMPC herbal medicine page: Hop strobile (lupuli-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/lupuli-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-lini-semen",
+  "title": "EMA HMPC herbal medicine page: Linseed (lini-semen)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/lini-semen",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-echinaceae-purpureae-herba",
+  "title": "EMA HMPC herbal medicine page: Purple coneflower herb (echinaceae-purpureae-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-allii-sativi-bulbus",
+  "title": "EMA HMPC herbal medicine page: Garlic (allii-sativi-bulbus)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/allii-sativi-bulbus",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-tanaceti-parthenii-herba",
+  "title": "EMA HMPC herbal medicine page: Feverfew (tanaceti-parthenii-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/tanaceti-parthenii-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-plantaginis-lanceolatae-folium",
+  "title": "EMA HMPC herbal medicine page: Ribwort plantain (plantaginis-lanceolatae-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/plantaginis-lanceolatae-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-filipendulae-ulmariae-herba",
+  "title": "EMA HMPC herbal medicine page: Meadowsweet (filipendulae-ulmariae-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/filipendulae-ulmariae-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-betulae-folium",
+  "title": "EMA HMPC herbal medicine page: Birch leaf (betulae-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/betulae-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-taraxaci-folium",
+  "title": "EMA HMPC herbal medicine page: Dandelion leaf (taraxaci-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/taraxaci-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-rubi-idaei-folium",
+  "title": "EMA HMPC herbal medicine page: Raspberry leaf (rubi-idaei-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/rubi-idaei-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-quercus-cortex",
+  "title": "EMA HMPC herbal medicine page: Oak bark (quercus-cortex)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/quercus-cortex",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-agrimoniae-herba",
+  "title": "EMA HMPC herbal medicine page: Agrimony (agrimoniae-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/agrimoniae-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-equiseti-herba",
+  "title": "EMA HMPC herbal medicine page: Horsetail (equiseti-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/equiseti-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-polygoni-avicularis-herba",
+  "title": "EMA HMPC herbal medicine page: Knotgrass (polygoni-avicularis-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/polygoni-avicularis-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-primulae-radix",
+  "title": "EMA HMPC herbal medicine page: Primula (cowslip) root (primulae-radix)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/primulae-radix",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-althaeae-radix",
+  "title": "EMA HMPC herbal medicine page: Marshmallow root (althaeae-radix)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/althaeae-radix",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-verbasci-flos",
+  "title": "EMA HMPC herbal medicine page: Mullein flower (verbasci-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/verbasci-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-arnicae-flos",
+  "title": "EMA HMPC herbal medicine page: Arnica flower (arnicae-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/arnicae-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-chelidonii-herba",
+  "title": "EMA HMPC herbal medicine page: Greater celandine (chelidonii-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/chelidonii-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-tiliae-flos",
+  "title": "EMA HMPC herbal medicine page: Lime flower (tiliae-flos)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/tiliae-flos",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-centaurii-herba",
+  "title": "EMA HMPC herbal medicine page: Centaury (centaurii-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/centaurii-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-visci-albi-herba",
+  "title": "EMA HMPC herbal medicine page: Mistletoe (visci-albi-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/visci-albi-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-bursae-pastoris-herba",
+  "title": "EMA HMPC herbal medicine page: Shepherd's purse (bursae-pastoris-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/bursae-pastoris-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-solidaginis-virgaureae-herba",
+  "title": "EMA HMPC herbal medicine page: European goldenrod (solidaginis-virgaureae-herba)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/solidaginis-virgaureae-herba",
+  "type": "regulator"
+ },
+ {
+  "id": "ema-menyanthidis-trifoliatae-folium",
+  "title": "EMA HMPC herbal medicine page: Bogbean leaf (menyanthidis-trifoliatae-folium)",
+  "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+  "url": "https://www.ema.europa.eu/en/medicines/herbal/menyanthidis-trifoliatae-folium",
+  "type": "regulator"
+ },
+ {
+  "id": "cochrane-cd000448",
+  "title": "St John's wort for major depression",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD000448.pub3",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD000448.pub3",
+  "year": 2008,
+  "authors": "Linde K, Berner MM, Kriston L"
+ },
+ {
+  "id": "cochrane-cd000530",
+  "title": "Echinacea for preventing and treating the common cold",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD000530.pub3",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD000530.pub3",
+  "year": 2014,
+  "authors": "Karsch-Völk M et al."
+ },
+ {
+  "id": "cochrane-cd006206",
+  "title": "Garlic for the common cold",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD006206.pub4",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD006206.pub4",
+  "year": 2014,
+  "authors": "Lissiman E, Bhasale AL, Cohen M"
+ },
+ {
+  "id": "cochrane-cd002286",
+  "title": "Feverfew for preventing migraine",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD002286.pub3",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD002286.pub3",
+  "year": 2015,
+  "authors": "Wider B, Pittler MH, Ernst E"
+ },
+ {
+  "id": "cochrane-cd005312",
+  "title": "Hawthorn extract for treating chronic heart failure",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD005312.pub2",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD005312.pub2",
+  "year": 2008,
+  "authors": "Pittler MH, Guo R, Ernst E"
+ },
+ {
+  "id": "cochrane-cd003120",
+  "title": "Ginkgo biloba for cognitive impairment and dementia",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD003120.pub3",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD003120.pub3",
+  "year": 2009,
+  "authors": "Birks J, Grimley Evans J"
+ },
+ {
+  "id": "cochrane-cd003620",
+  "title": "Milk thistle for alcoholic and/or hepatitis B or C virus liver diseases",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD003620.pub3",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD003620.pub3",
+  "year": 2007,
+  "authors": "Rambaldi A, Jacobs BP, Gluud C"
+ },
+ {
+  "id": "cochrane-cd004515",
+  "title": "Valerian for anxiety disorders",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD004515.pub2",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD004515.pub2",
+  "year": 2006,
+  "authors": "Miyasaka LS, Atallah AN, Soares BG"
+ },
+ {
+  "id": "cochrane-cd003230",
+  "title": "Horse chestnut seed extract for chronic venous insufficiency",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD003230.pub4",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD003230.pub4",
+  "year": 2012,
+  "authors": "Pittler MH, Ernst E"
+ },
+ {
+  "id": "cochrane-cd004504",
+  "title": "Herbal medicine for low back pain",
+  "publisher": "Cochrane Database of Systematic Reviews",
+  "url": "https://doi.org/10.1002/14651858.CD004504.pub4",
+  "type": "systematic_review",
+  "doi": "10.1002/14651858.CD004504.pub4",
+  "year": 2014,
+  "authors": "Oltean H et al."
+ },
+ {
+  "id": "wt-cow-parsley",
+  "title": "Woodland Trust species guide: cow parsley",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/cow-parsley/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-foxglove",
+  "title": "Woodland Trust species guide: foxglove",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/foxglove/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-wild-garlic",
+  "title": "Woodland Trust species guide: wild garlic",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/wild-garlic/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-lily-of-the-valley",
+  "title": "Woodland Trust species guide: lily of the valley",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/lily-of-the-valley/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-deadly-nightshade",
+  "title": "Woodland Trust species guide: deadly nightshade",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/deadly-nightshade/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-bluebell",
+  "title": "Woodland Trust species guide: bluebell",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/bluebell/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-meadowsweet",
+  "title": "Woodland Trust species guide: meadowsweet",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/meadowsweet/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-ivy",
+  "title": "Woodland Trust species guide: ivy",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/ivy/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-herb-robert",
+  "title": "Woodland Trust species guide: herb robert",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/herb-robert/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-wood-anemone",
+  "title": "Woodland Trust species guide: wood anemone",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/wood-anemone/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-dogs-mercury",
+  "title": "Woodland Trust species guide: dogs mercury",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/dogs-mercury/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-red-campion",
+  "title": "Woodland Trust species guide: red campion",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/red-campion/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-primrose",
+  "title": "Woodland Trust species guide: primrose",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/primrose/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-yew",
+  "title": "Woodland Trust tree guide: yew",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/yew/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-elder",
+  "title": "Woodland Trust tree guide: elder",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/elder/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-hawthorn",
+  "title": "Woodland Trust tree guide: hawthorn",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/hawthorn/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-holly",
+  "title": "Woodland Trust tree guide: holly",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-horse-chestnut",
+  "title": "Woodland Trust tree guide: horse chestnut",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/horse-chestnut/",
+  "type": "species_guide"
+ },
+ {
+  "id": "wt-white-willow",
+  "title": "Woodland Trust tree guide: white willow",
+  "publisher": "Woodland Trust",
+  "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/white-willow/",
+  "type": "species_guide"
+ },
+ {
+  "id": "rhs-harmful",
+  "title": "Potentially harmful garden plants",
+  "publisher": "Royal Horticultural Society",
+  "url": "https://www.rhs.org.uk/prevention-protection/potentially-harmful-garden-plants",
+  "type": "toxicity_list",
+  "note": "Mirrors HTA guidelines; categories A (most toxic) to C"
+ },
+ {
+  "id": "plantlife-hemlock",
+  "title": "Hemlock (Conium maculatum)",
+  "publisher": "Plantlife",
+  "url": "https://www.plantlife.org.uk/plants-and-fungi/hemlock/",
+  "type": "species_guide"
+ },
+ {
+  "id": "nhs-herbal",
+  "title": "Herbal medicines and complementary therapies",
+  "publisher": "NHS",
+  "url": "https://www.nhs.uk/conditions/herbal-medicines/",
+  "type": "health_authority"
+ },
+ {
+  "id": "nhs-depression",
+  "title": "Treatment - Depression in adults",
+  "publisher": "NHS",
+  "url": "https://www.nhs.uk/mental-health/conditions/depression-in-adults/treatment/",
+  "type": "health_authority"
+ },
+ {
+  "id": "nhs-insomnia",
+  "title": "Insomnia",
+  "publisher": "NHS",
+  "url": "https://www.nhs.uk/conditions/insomnia/",
+  "type": "health_authority"
+ },
+ {
+  "id": "nhs-digoxin",
+  "title": "Digoxin: a medicine to treat heart problems",
+  "publisher": "NHS",
+  "url": "https://www.nhs.uk/medicines/digoxin/",
+  "type": "health_authority"
+ },
+ {
+  "id": "nhs-poisoning",
+  "title": "Poisoning",
+  "publisher": "NHS",
+  "url": "https://www.nhs.uk/conditions/poisoning/",
+  "type": "health_authority"
+ },
+ {
+  "id": "mhra-sjw-contra",
+  "title": "St John's wort: interaction with hormonal contraceptives, including implants",
+  "publisher": "MHRA Drug Safety Update",
+  "url": "https://www.gov.uk/drug-safety-update/st-john-s-wort-interaction-with-hormonal-contraceptives-including-implants",
+  "type": "regulator"
+ },
+ {
+  "id": "mhra-sjw-aed",
+  "title": "Herbal ingredient St John's wort may interact with antiepileptics",
+  "publisher": "MHRA Drug Safety Update",
+  "url": "https://www.gov.uk/drug-safety-update/herbal-ingredient-st-john-s-wort-may-interact-with-antiepileptics",
+  "type": "regulator"
+ },
+ {
+  "id": "mhra-thr",
+  "title": "Apply for a traditional herbal registration (THR)",
+  "publisher": "MHRA (GOV.UK)",
+  "url": "https://www.gov.uk/guidance/apply-for-a-traditional-herbal-registration-thr",
+  "type": "regulator"
+ },
+ {
+  "id": "mhra-yellowcard",
+  "title": "Herbal medicines: report suspected adverse reactions to the Yellow Card Scheme",
+  "publisher": "MHRA Drug Safety Update",
+  "url": "https://www.gov.uk/drug-safety-update/herbal-medicines-report-suspected-adverse-reactions-to-the-yellow-card-scheme",
+  "type": "regulator"
+ }
+]
