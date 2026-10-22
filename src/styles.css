@@ -392,7 +392,12 @@ nav {
   margin: 0 0 8px;
 }
 
-.grade-name { font-weight: 600; color: var(--copper-ink); }
+.grade-name {
+  font-weight: 600;
+  color: var(--copper-ink);
+  line-height: 1.35;
+  min-width: 0;
+}
 
 .grade-id {
   margin: -2px 0 8px;
@@ -538,6 +543,12 @@ legend {
   height: 1.15rem;
   margin-top: 0.15rem;
   accent-color: var(--copper-ink);
+}
+
+.choice span {
+  flex: 1;
+  line-height: 1.35;
+  padding-top: 0.05rem;
 }
 
 .sheet-actions { display: flex; justify-content: flex-end; }

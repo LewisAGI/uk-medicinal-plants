@@ -1,30 +1,12 @@
-import contentJson from '../data/content.json'
-import sourcesJson from '../data/sources.json'
-import readme from '../data/README.md?raw'
+import publicPack from 'virtual:public-pack'
 import { CHROME } from './chrome'
+import { hasDosing, stripDosing } from './dosing'
 import { EXAMPLE_DATA_LABEL, HABITATS, SEASONS, exampleFacets, type HabitatId, type SeasonId } from './exampleFacets'
 
-const DOSING = /\bmg\b|\bml\b|\bgrams?\b|\bteaspoons?\b|\btimes a day/i
-
-export function hasDosing(text: string): boolean {
-  return DOSING.test(text)
-}
-
-export function stripDosing(text: string): string {
-  return text
-    .split(/(?<=[.!?])\s+/)
-    .filter((part) => !DOSING.test(part))
-    .join(' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-}
-
-function pub(text: string): string {
-  return stripDosing(text)
-}
+export { hasDosing, stripDosing }
 
 export const GRADE_LABEL: Record<string, string> = {
-  clinical_supported: 'Clinical',
+  clinical_supported: 'Clinically supported (specific products)',
   clinical_mixed: 'Mixed',
   traditional_only: 'Traditional only',
   monograph_area_only: 'Monograph area only',
@@ -78,6 +60,8 @@ export interface Plant {
   cautions?: CitedNote[]
   traditional_notes?: CitedNote[]
   safety_banner: string
+  /** Set when the build filter removed every no_known_benefit use and basis. */
+  expert_review_pending?: boolean
 }
 
 export interface GeneralSafety {
@@ -108,7 +92,7 @@ export interface Source {
   type: string
 }
 
-export const content = contentJson as unknown as Content
+export const content = publicPack.content as Content
 
 if (!Array.isArray(content.plants) || content.plants.length === 0) {
   throw new Error('content pack is not readable')
@@ -119,6 +103,7 @@ export const EXPERT_REVIEW_PENDING = true
 
 export function isPendingExpertReview(plant: Plant): boolean {
   if (!EXPERT_REVIEW_PENDING) return false
+  if (plant.expert_review_pending) return true
   return plant.medicinal_uses.length > 0 && plant.medicinal_uses.every((use) => use.evidence_grade === 'no_known_benefit')
 }
 
@@ -130,11 +115,7 @@ export function labelize(value: string): string {
   return value.replace(/_/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase())
 }
 
-const sourceList: Source[] = (sourcesJson as unknown as Source[]).map((source) => ({
-  ...source,
-  title: pub(source.title),
-  publisher: pub(source.publisher),
-}))
+const sourceList: Source[] = (publicPack.sources as Source[]).map((source) => ({ ...source }))
 
 const sourcesById = new Map(sourceList.map((source) => [source.id, source]))
 
@@ -231,7 +212,7 @@ export interface PublicSafety {
 
 function notable(label?: string): string | null {
   if (!label || label === 'evidence') return null
-  return pub(label)
+  return label
 }
 
 export function needsPoisoningGuidance(level: string, summary: string): boolean {
@@ -253,41 +234,41 @@ export function toPublic(plant: Plant): PublicPlant {
   const pending = isPendingExpertReview(plant)
   const toxicity = plant.toxicity
     ? {
-        level: pub(plant.toxicity.level),
-        summary: pub(plant.toxicity.summary),
+        level: plant.toxicity.level,
+        summary: plant.toxicity.summary,
         sources: plant.toxicity.sources,
         urgent: needsPoisoningGuidance(plant.toxicity.level, plant.toxicity.summary),
       }
     : null
   const lookalikes = (plant.lookalikes ?? []).map((item) => ({
-    lookalike: pub(item.lookalike),
-    risk: pub(item.risk),
-    features: pub(item.distinguishing_features),
+    lookalike: item.lookalike,
+    risk: item.risk,
+    features: item.distinguishing_features,
     evidenceLabel: notable(item.evidence_label),
     sources: item.sources,
   }))
   const cautions = pending
     ? []
     : (plant.cautions ?? []).map((item) => ({
-        text: pub(item.text),
+        text: item.text,
         evidenceLabel: notable(item.evidence_label),
         sources: item.sources,
       }))
   const traditionalNotes = pending
     ? []
     : (plant.traditional_notes ?? []).map((item) => ({
-        text: pub(item.text),
+        text: item.text,
         evidenceLabel: notable(item.evidence_label),
         sources: item.sources,
       }))
   const uses = pending
     ? []
     : plant.medicinal_uses.map((item) => ({
-        use: pub(item.use),
+        use: stripDosing(item.use),
         grade: item.evidence_grade,
         gradeLabel: GRADE_LABEL[item.evidence_grade] ?? item.evidence_grade,
-        definition: pub(content.grades[item.evidence_grade] ?? ''),
-        basis: pub(item.basis),
+        definition: content.grades[item.evidence_grade] ?? '',
+        basis: stripDosing(item.basis),
         evidenceLabel: notable(item.evidence_label),
         sources: item.sources,
       }))
@@ -300,9 +281,9 @@ export function toPublic(plant: Plant): PublicPlant {
   ])
   return {
     id: plant.id,
-    commonName: pub(plant.common_name),
-    botanicalName: pub(plant.botanical_name),
-    safetyBanner: pub(plant.safety_banner),
+    commonName: plant.common_name,
+    botanicalName: plant.botanical_name,
+    safetyBanner: plant.safety_banner,
     pending,
     pendingNotice: pending ? CHROME.noMatch : null,
     toxicity,
@@ -419,7 +400,7 @@ export function catalog(query: CatalogQuery): CatalogItem[] {
 export function generalSafety(): PublicSafety[] {
   return content.general_safety.map((item) => ({
     id: item.id,
-    text: pub(item.text),
+    text: item.text,
     sources: item.sources,
   }))
 }
@@ -435,9 +416,7 @@ export interface GlossaryEntry {
 }
 
 export function evidenceLabelNote(): string | null {
-  const line = readme.split('\n').find((entry) => entry.trimStart().startsWith('- Labels:'))
-  if (!line) return null
-  return pub(line.replace(/^-\s*/, '').replace(/`/g, '').trim())
+  return publicPack.evidenceLabelNote || null
 }
 
 export function glossaryEntries(): GlossaryEntry[] {
@@ -447,7 +426,7 @@ export function glossaryEntries(): GlossaryEntry[] {
     .map((id) => ({
       id,
       term: GRADE_LABEL[id] ?? id,
-      definition: pub(content.grades[id] ?? ''),
+      definition: content.grades[id] ?? '',
     }))
   const note = evidenceLabelNote()
   if (note) entries.push({ id: 'evidence_label', term: CHROME.evidenceLabelTerm, definition: note })
